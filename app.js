@@ -131,8 +131,4 @@ document.getElementById("search").addEventListener("keypress", function(event) {
     document.getElementById("search-btn").click();
 });
 
-// add snipper
-const toggleSpinner = () => {
-  const spinner = document.getElementById('spinner');
-  spinner.classList.toggle('d-none');
-}
+
